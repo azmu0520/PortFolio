@@ -4,7 +4,8 @@ nav a.nav-link {
 }
 
 .logo {
-  width: 16.25rem;
+  width: 18.25rem;
+  margin-top: 2rem;
 }
 
 nav ul li {
@@ -30,5 +31,9 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid rgb(87, 175, 216);
+}
+
+.navbar-nav li a:hover {
   border-top: 0.1875rem solid rgb(87, 175, 216);
 }
