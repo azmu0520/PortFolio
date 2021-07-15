@@ -1,0 +1,34 @@
+nav a.nav-link {
+  font-size: 1rem;
+  letter-spacing: 0.034rem;
+}
+
+.logo {
+  width: 16.25rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  color: rgb(235, 232, 232) !important;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-top: 0.1875rem solid rgb(255, 255, 255, 0);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid rgb(87, 175, 216);
+}
