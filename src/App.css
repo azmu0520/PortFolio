@@ -37,3 +37,50 @@ nav ul li {
 .navbar-nav li a:hover {
   border-top: 0.1875rem solid rgb(87, 175, 216);
 }
+
+.header-wraper {
+  position: relative;
+  background: url(back.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 10);
+}
+.main-info h1 {
+  text-transform: uppercase;
+  color: rgb(184, 126, 25);
+
+  display: flex;
+}
+
+.typed-text {
+  display: flex;
+  font-size: 2rem;
+  color: rgb(235, 232, 232);
+}
+
+.btn-main-offer {
+  border: 1px solid #ef4035;
+  text-transform: uppercase;
+  margin: 2rem;
+
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+}
+
+.main-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info a {
+  text-decoration: none;
+}
