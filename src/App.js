@@ -2,6 +2,8 @@ import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Particles from "react-particles-js";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from "./components/About";
 const App = () => {
   return (
     <div>
@@ -39,8 +41,17 @@ const App = () => {
           },
         }}
       />
-      <Navbar />
-      <Header />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/home">
+            <Header />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 };
