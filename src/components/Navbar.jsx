@@ -7,50 +7,52 @@ const Navbar = () => {
   return (
     <Wrapper className="main-cover">
       <img className="logo" src={logo} />
-
-      <ul>
-        <li>
-          <NavLink to="/home">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/about">about</NavLink>
-        </li>
-        <li>
-          <NavLink to="/projects">projects</NavLink>
-        </li>
-        <li>
-          <NavLink to="/contact">contact</NavLink>
-        </li>
-      </ul>
-      <div className="menu-icon">
+      <div className="manu-icon">
         <MdMenu />
       </div>
+      <ul>
+        <li>
+          <NavLink to="/home">HOME</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">ABOUT</NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects">PROJECTS</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">CONTACT</NavLink>
+        </li>
+      </ul>
     </Wrapper>
   );
 };
 export default Navbar;
 
 const Wrapper = styled.div`
-  display: flex;
   position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
-
   z-index: 100;
-  background: #262626;
+
+  .manu-icon {
+    position: absolute;
+    width: 200px;
+  }
   ul {
     max-width: 1200px;
     width: 90%;
-    margin: 0 auto;
+    margin-left: auto;
     text-align: center;
   }
   li {
     display: inline-block;
     border-radius: 8px;
-    transition: 1s ease-in-out background-color;
+    transition: 0.8s ease-in-out background-color;
     &:hover {
-      background: #160b06b9;
+      background: #242019b8;
     }
   }
   a {

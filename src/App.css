@@ -1,63 +1,27 @@
-nav a.nav-link {
-  font-size: 1rem;
-  letter-spacing: 0.034rem;
-}
-
 .logo {
-  width: 18.25rem;
-  margin-top: 2rem;
+  width: 18rem;
+  height: 3.5rem;
+  margin-top: 1rem;
 }
-.main-cover {
-  position: absolute;
-  z-index: 2;
-  /* background-color: blue; */
+body {
+  align-items: center;
+  place-items: center;
 }
-.main-cover > ul > li {
-  list-style-type: none;
-}
-.main-cover > ul > li a {
-  /* cursor: pointer; */
-  text-decoration: none;
-}
-
-nav ul li {
-  text-transform: uppercase;
-}
-
-.navbar-nav > li > a {
-  color: rgb(235, 232, 232) !important;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-  border-top: 0.1875rem solid rgb(255, 255, 255, 0);
-}
-
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem;
-}
-
-.navbar-nav {
-  margin-left: auto;
-}
-
-.navbar-nav > li > a.active,
-.navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid rgb(87, 175, 216);
-}
-
-.navbar-nav li a:hover {
-  border-top: 0.1875rem solid rgb(87, 175, 216);
-}
-
-.header-wraper {
-  position: relative;
+.app {
   background: url(back.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+.loading {
+  color: red;
+}
+.header-wraper {
+  position: relative;
 
-  background-color: rgba(0, 0, 0, 10);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 .main-info h1 {
   text-transform: uppercase;
@@ -108,7 +72,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .main-info a {

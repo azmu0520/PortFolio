@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Particles
         params={{
           particles: {
             number: {
-              value: 70,
+              value: 30,
               density: {
                 enable: true,
                 value_area: 900,
@@ -29,13 +29,31 @@ const App = () => {
             },
 
             size: {
-              value: 6,
+              value: 5,
               random: false,
               anim: {
                 enable: false,
-                speed: 10,
+                speed: 4,
                 size_min: 0,
                 sync: false,
+              },
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+              onclick: {
+                enable: true,
+                mode: "push",
+              },
+            },
+
+            modes: {
+              push: {
+                particles_nb: 1,
               },
             },
           },
