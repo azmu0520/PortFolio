@@ -7,8 +7,17 @@ nav a.nav-link {
   width: 18.25rem;
   margin-top: 2rem;
 }
-nav {
+.main-cover {
+  position: absolute;
   z-index: 2;
+  /* background-color: blue; */
+}
+.main-cover > ul > li {
+  list-style-type: none;
+}
+.main-cover > ul > li a {
+  /* cursor: pointer; */
+  text-decoration: none;
 }
 
 nav ul li {
@@ -46,7 +55,7 @@ nav ul li {
   background: url(back.jpg) no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 
   background-color: rgba(0, 0, 0, 10);
 }
