@@ -7,6 +7,9 @@ nav a.nav-link {
   width: 18.25rem;
   margin-top: 2rem;
 }
+nav {
+  z-index: 2;
+}
 
 nav ul li {
   text-transform: uppercase;
@@ -44,6 +47,7 @@ nav ul li {
   background-position: center;
   background-size: cover;
   height: 90vh;
+
   background-color: rgba(0, 0, 0, 10);
 }
 .main-info h1 {
@@ -53,6 +57,15 @@ nav ul li {
   display: flex;
 }
 
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem;
+  }
+  .typed-text {
+    font-size: 1.3rem;
+  }
+}
+
 .typed-text {
   display: flex;
   font-size: 2rem;
@@ -60,12 +73,19 @@ nav ul li {
 }
 
 .btn-main-offer {
-  border: 1px solid #ef4035;
+  border: 1px solid #9c726f;
   text-transform: uppercase;
   margin: 2rem;
+  color: rgb(235, 232, 232);
 
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+}
+
+.btn-main-offer:hover {
+  background-color: rgb(128, 156, 49);
+  border: none;
+  transition: 0.6s ease-in-out;
 }
 
 .main-info {
@@ -79,8 +99,22 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
 
 .main-info a {
   text-decoration: none;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .tsparticles-canvas-el {
+    display: none;
+  }
 }
