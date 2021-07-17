@@ -33,6 +33,10 @@ body {
 @media (max-width: 768px) {
   .main-info h1 {
     font-size: 1.7rem;
+    padding-top: 100px;
+  }
+  .typed-text {
+    font-size: 1.3rem;
   }
   .typed-text {
     font-size: 1.3rem;
