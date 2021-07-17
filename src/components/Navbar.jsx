@@ -35,15 +35,25 @@ const UL = styled.ul`
   max-width: 1200px;
   width: 90%;
   margin-left: auto;
-  text-align: center;
+  margin-right: auto;
+  /* text-align: center; */
   display: flex;
+  justify-content: space-around;
   flex-flow: row nowrap;
-
+  li > a {
+    /* font-size: 20px; */
+    @media (max-width: 768px) {
+      font-size: 18px;
+      /* margin-left: 250px; */
+    }
+  }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     width: 100%;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     transition: transform 0.3s ease-in-out;
+    padding-left: 0;
+    flex-flow: column nowrap;
   }
 `;
 

@@ -8,26 +8,10 @@ body {
   place-items: center;
 }
 .app {
-  background: url(back.jpg) no-repeat;
+  background: url(./assets/img/back.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
-}
-.loading {
-  color: red;
-}
-.header-wraper {
-  position: relative;
-
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-.main-info h1 {
-  text-transform: uppercase;
-  color: rgb(184, 126, 25);
-
-  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -36,10 +20,7 @@ body {
     padding-top: 100px;
   }
   .typed-text {
-    font-size: 1.3rem;
-  }
-  .typed-text {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
