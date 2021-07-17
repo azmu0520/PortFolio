@@ -11,7 +11,7 @@ const App = () => {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 25,
               density: {
                 enable: true,
                 value_area: 900,
@@ -29,7 +29,7 @@ const App = () => {
             },
 
             size: {
-              value: 5,
+              value: 4,
               random: false,
               anim: {
                 enable: false,
@@ -53,7 +53,11 @@ const App = () => {
 
             modes: {
               push: {
-                particles_nb: 1,
+                particles_nb: 3,
+              },
+              bubble: {
+                size: 10,
+                distance: 100,
               },
             },
           },
@@ -65,7 +69,13 @@ const App = () => {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/home">
+          <Route path="/projects">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <About />
+          </Route>
+          <Route path="/">
             <Header />
           </Route>
         </Switch>
