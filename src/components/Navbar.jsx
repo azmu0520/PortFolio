@@ -44,6 +44,7 @@ const UL = styled.ul`
     /* font-size: 20px; */
     @media (max-width: 768px) {
       font-size: 18px;
+
       /* margin-left: 250px; */
     }
   }
@@ -73,7 +74,7 @@ const Burger = styled.div`
     div {
       width: 2rem;
       height: 0.25rem;
-      background: ${({ open }) => (open ? "#fff" : "blue")};
+      background: ${({ open }) => (open ? "#fff" : "#585353")};
       border-radius: 10px;
       transform-origin: 1px;
       transition: all 0.4s ease-in-out;
