@@ -1,0 +1,103 @@
+[
+  {
+    "name": "CargoPrime",
+    "desc": "Cargoprime Corporation is in the Freight Transportation Arrangement business.",
+    "image": "instagrammern",
+    "category": "lamp",
+    "links": {
+      "view": "https://dashboard.trailer-test.nightwell-logistics.com",
+      "code": "https://github.com/mukhtorov/trailer_prime"
+    }
+  },
+  {
+    "name": "Uchkurgan Design",
+    "desc": "Ant Desing clone without using ant or any other libraries and using each component as generic",
+    "image": "flipkartmern",
+    "category": "mern",
+    "links": {
+      "view": "*",
+      "code": "https://github.com/azmu0520/uchkurgan"
+    }
+  },
+  {
+    "name": "Houzing",
+    "desc": "Houzing project is for making Realtors job super easy",
+    "image": "resumegen",
+    "category": "lamp",
+    "links": {
+      "view": "https://houzing.netlify.app",
+      "code": "https://github.com/azmu0520/Houzing"
+    }
+  },
+  {
+    "name": "Polymergas",
+    "desc": "Corporation mainly trade in polyethylene and polypropylene raw materials.",
+    "image": "reactprojects",
+    "category": "mern",
+    "links": {
+      "view": "https://polymergasuz.netlify.app/",
+      "code": "https://github.com/azmu0520/polymergas"
+    }
+  },
+  {
+    "name": "Luna",
+    "desc": "E-commerce",
+    "image": "flipkartphp",
+    "category": "lamp",
+    "links": {
+      "view": "https://luna-market.netlify.app/home",
+      "code": "https://github.com/mukhtorov/lunaOld"
+    }
+  },
+  {
+    "name": "Digital One",
+    "desc": "This website is outsourcing software development company",
+    "image": "jspro",
+    "category": "basicweb",
+    "links": {
+      "view": "https://digital-one-uz.netlify.app/",
+      "code": "https://github.com/azmu0520/digital_one"
+    }
+  },
+  {
+    "name": "Crypto Curroncy",
+    "desc": "Crypto Curroncy website ",
+    "image": "webuiclones",
+    "category": "mern",
+    "links": {
+      "view": "https://crypto-currency-jango.netlify.app/",
+      "code": "https://github.com/azmu0520/crypto-currency-jango"
+    }
+  },
+
+  {
+    "name": "React Generic Calendar",
+    "desc": "Genericly works written in reactjs",
+    "image": "hulu",
+    "category": "basicweb",
+    "links": {
+      "view": "https://react-generic-calendar.netlify.app/",
+      "code": "https://github.com/azmu0520/React_Calendar"
+    }
+  },
+  {
+    "name": "Crud in React",
+    "desc": "Using all crud functionality in Reactjs",
+    "image": "portfolio1",
+    "category": "basicweb",
+    "links": {
+      "view": "https://crud-in-reactjs.netlify.app/",
+      "code": "https://github.com/azmu0520/Crud-in-React"
+    }
+  },
+  {
+    "name": "Rock Paper Scissor",
+    "desc": "Game",
+    "image": "composey",
+    "category": "basicweb",
+    "links": {
+      "view": "https://rock-paper-scissor-gameuz.netlify.app/",
+      "code": "https://github.com/azmu0520/rock-paper-scissor"
+    }
+  }
+]
