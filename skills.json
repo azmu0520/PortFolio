@@ -9,24 +9,46 @@
   },
   {
     "name": "Rest Full api",
-    "icon": "https://img.icons8.com/color/48/000000/redux.png"
+    "icon": "https://docs.getxray.app/download/thumbnails/31621455/rest_api2.png?version=2&modificationDate=1600507699924&api=v2"
   },
   {
     "name": "Firebase",
     "icon": "https://img.icons8.com/color/48/000000/firebase.png"
   },
   {
+    "name": "Next js",
+    "icon": "https://iconape.com/wp-content/files/gm/82643/svg/next-js.svg"
+  },
+  {
+    "name": "Styled Component",
+    "icon": "https://www.styled-components.com/atom.png"
+  },
+
+  {
     "name": "MaterialUI",
     "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
   },
   {
     "name": "Antd Design",
-    "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+    "icon": "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png"
   },
   {
     "name": "ChakraUI",
     "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
   },
+  {
+    "name": "WordPress",
+    "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+  },
+  {
+    "name": "jQuery",
+    "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+
   {
     "name": "TailwindCSS",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
@@ -35,21 +57,26 @@
     "name": "Bootstrap",
     "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
   },
+
   {
     "name": "Sass",
     "icon": "https://img.icons8.com/color/48/000000/sass.png"
-  },
-  {
-    "name": "HTML5",
-    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
   },
   {
     "name": "CSS3",
     "icon": "https://img.icons8.com/color/48/000000/css3.png"
   },
   {
-    "name": "JavaScript",
-    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    "name": "HTML5",
+    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+  {
+    "name": "C++",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+  },
+  {
+    "name": "C",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
   },
   {
     "name": "Heroku",
@@ -61,15 +88,15 @@
   },
   {
     "name": "Vercel app",
-    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEUAAAD///+Tk5P8/Pxubm719fXNzc3s7Ozc3Nybm5uIiIji4uKwsLAuLi75+fnU1NSjo6NjY2NRUVGCgoKqqqpaWlq/v7/g4OB2dnbGxsa5ubkjIyM7OzsJCQlGRkYbGxtR4SmvAAACcElEQVR4nO3ZaVYbQQxFYWRssDHz4IAxZv+7DDlJA+6hSk1XRZLP/Vag96v69D05AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGSX1gfUNpN76xMqE1lbn1DXVkQerI+oafcxUE6tr6hp+WehPFqfUc9c/nq1PqSaxb+FZ9aH1LKSxpP1KXW8fQ6Uc+tb6th8LZQL62Nq2Mt31tfUsD5YeISfp89y6Mr6oOKuWwtvrA8q7Vba7qxPKuu9M/DYXoyX7kKZWR9V0n3PwON6Mc57F26tzyrnoXegyM76sGJOBxYurQ8r5XFgoMjc+rQyXgcHysL6tjLOhhfKyvq4Ep4SA4/jxeh/KRob6/Omu0gOFNlbHzhZZqD8sj5wqsvcQnm2PnGaq+xAuba+cZqb/EK5tT5yijvFQJF36zMnWOTnfXixPvPnZqqBEjiaKgfGjaZb7cKo0XSnHhg1mi71C2NG03l+1zcRo6nupWgEjKar/KoD4aLpW37ToXC/wDf5TS3Bouk+v6jD+uZx1vlBHaGiaTuH6kSKpu0cqhMomnZzqE6YaNqTQ3XCvBh9OVQnSDTtz6E61rfrpH9yp4WIpkM5VCdCNB3KoToBoulwDtVxH00TOVTHfTRN5VAd59E0nUN1rDekTXkpGq6jaS6H6niOpkUGeo6m+Ryq4zaaKnKojttoqsmhOk6jqS6H6viMpiVeiobLaKrNoToeo2nRgR6jqT6H6riLpiNyqI67aDomh+o4i6bjcqiOr2g6LofquIqmY3OojqNoOjqH6jj6Bf7zn9xpQX6BAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/H+/ASNrFaCFQOJnAAAAAElFTkSuQmCC"
   },
   {
     "name": "Figma",
-    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png"
   },
   {
-    "name": "jQuery",
-    "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+    "name": "Telegram Bot",
+    "icon": "https://cdn.worldvectorlogo.com/logos/telegram.svg"
   },
   {
     "name": "Git VCS",
@@ -80,19 +107,15 @@
     "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
   },
   {
-    "name": "WordPress",
-    "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-  },
-  {
-    "name": "Telegram Bot",
-    "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    "name": "GitLab",
+    "icon": "https://www.logolynx.com/images/logolynx/7f/7fb7e6c38db4097ea5117a9bc24ca939.png"
   },
   {
     "name": "Team Leader",
-    "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    "icon": "https://store-images.s-microsoft.com/image/apps.22750.96fdf317-2b1e-4996-a6f0-dfd726bff836.8a32ed37-99ca-421a-9d9e-e3fba3d95bc4.7e6c9449-9b88-4f8b-b875-7cca66280f6b.png"
   },
   {
     "name": "Mentor",
-    "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    "icon": "https://thumbs.dreamstime.com/b/white-mentoring-icon-logo-mentoring-concept-dark-background-mentoring-icon-logo-mentoring-concept-dark-background-133692513.jpg"
   }
 ]
