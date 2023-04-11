@@ -40,6 +40,47 @@
     }
   },
   {
+    "name": "LOREM IPSUM DE DOLOR AMET",
+    "desc": "Female Online Perfume Shop",
+    "image": "cream",
+    "category": "lamp",
+    "links": {
+      "view": "https://cream-shop-azmu0520.netlify.app/",
+      "code": "https://github.com/azmu0520/cream-shop"
+    }
+  },
+  {
+    "name": "Razors",
+    "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+    "image": "razor",
+    "category": "lamp",
+    "links": {
+      "view": "https://razors-azmu.netlify.app/",
+      "code": "https://github.com/azmu0520/trazor"
+    }
+  },
+  {
+    "name": "Cocktail",
+    "desc": "Ut enim ad minim veniam, quisnostrud exercitation ullamco",
+    "image": "cocktail",
+    "category": "lamp",
+    "links": {
+      "view": "https://cocktail-azmu.netlify.app/",
+      "code": "https://github.com/azmu0520/coctail"
+    }
+  },
+
+  {
+    "name": "Tomor",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+    "image": "tomor",
+    "category": "lamp",
+    "links": {
+      "view": "https://tomor-azmu.netlify.app/",
+      "code": "https://github.com/azmu0520/tomor"
+    }
+  },
+  {
     "name": "Luna",
     "desc": "E-commerce",
     "image": "flipkartphp",
@@ -47,6 +88,16 @@
     "links": {
       "view": "https://luna-market.netlify.app/home",
       "code": "https://github.com/mukhtorov/lunaOld"
+    }
+  },
+  {
+    "name": "BestStore",
+    "desc": "E Learning Platform Project in Itranstion Internship Program",
+    "image": "bestStore",
+    "category": "lamp",
+    "links": {
+      "view": "https://best-store-front.vercel.app/",
+      "code": "https://github.com/azmu0520/best-store-back"
     }
   },
   {
